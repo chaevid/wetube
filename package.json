@@ -1,0 +1,20 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "https://nomadcoders.co/wetube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "chaevid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaevid/wetube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chaevid/wetube/issues"
+  },
+  "homepage": "https://github.com/chaevid/wetube#readme"
+}
