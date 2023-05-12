@@ -20,8 +20,8 @@ https://nomadcoders.co/wetube
 
 ##### Video Router
 
-- /videos/watch : Watch Video
-- /videos/edit : Edit Video
-- /videos/delete : Delete Video
-- /videos/commets : Comment on a Video
-- /videos/commets/delete : Delete A Comment of a Video
+- /video/watch : Watch Video
+- /video/edit : Edit Video
+- /video/delete : Delete Video
+- /video/comments : Comment on a Video
+- /video/comments/delete : Delete A Comment of a Video
