@@ -12,16 +12,19 @@ https://nomadcoders.co/wetube
 - /signup : Sign Up (User)
 - /login : Login (User)
 - /search : Search (Video)
+  <br>
 
 ##### User Router
 
-- /user/edit : Edit User
-- /user/remove : Remove User
+- /user/:id : See User
+- /user/logout : Log Out
+- /user/edit : Edit MY Profile
+- /user/delete : Delete MY Profile
+  <br>
 
 ##### Video Router
 
-- /video/watch : Watch Video
-- /video/edit : Edit Video
-- /video/remove : Remove Video
-- /video/comments : Comment on a Video
-- /video/comments/remove : Remove A Comment of a Video
+- /video/:id : See Video
+- /video/:id/edit : Edit Video
+- /video/:id/delete : Delete Video
+- /video/upload : Upload Video
