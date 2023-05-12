@@ -8,20 +8,20 @@ https://nomadcoders.co/wetube
 
 ##### Global Router
 
-- / : Home
-- /signup : Sign Up
-- /login : Login
-- /search : Search
+- / : Home (Video)
+- /signup : Sign Up (User)
+- /login : Login (User)
+- /search : Search (Video)
 
 ##### User Router
 
 - /user/edit : Edit User
-- /user/delete : Delete User
+- /user/remove : Remove User
 
 ##### Video Router
 
 - /video/watch : Watch Video
 - /video/edit : Edit Video
-- /video/delete : Delete Video
+- /video/remove : Remove Video
 - /video/comments : Comment on a Video
-- /video/comments/delete : Delete A Comment of a Video
+- /video/comments/remove : Remove A Comment of a Video
