@@ -1,4 +1,4 @@
-export const see = (req, res) => res.send('See User');
+export const see = (req, res) => res.send(`See User #${req.params.id}`);
 export const signup = (req, res) => res.send('Sign up');
 export const login = (req, res) => res.send('Log in');
 export const logout = (req, res) => res.send('Log Out');
