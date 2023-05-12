@@ -15,8 +15,8 @@ https://nomadcoders.co/wetube
 
 ##### User Router
 
-- /users/edit : Edit User
-- /users/delete : Delete User
+- /user/edit : Edit User
+- /user/delete : Delete User
 
 ##### Video Router
 
