@@ -1,12 +1,10 @@
 extends base.pug
+include mixins/video
 
 block content
   h2 Welcome here you will see the trending videos
-  ul
-    each videoId in videoIds
-      li Video ##{videoId} 
-        a(href=`/video/${videoId}`) Watch video
-    else 
-      h3 No videos yet
 
-  
+  each video in videos
+    +video(video)
+  else
+    h3 No videos yet

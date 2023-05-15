@@ -4,9 +4,34 @@ const fakeUser = {
 };
 
 export const trending = (req, res) => {
-  const videoIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const videos = [
+    {
+      id: 1,
+      title: 'Zelda',
+      rating: 5.0,
+      comments: 2,
+      createdAt: '2 minutes ago',
+      views: 59,
+    },
+    {
+      id: 2,
+      title: 'Naruto',
+      rating: 4.9,
+      comments: 2,
+      createdAt: '2 minutes ago',
+      views: 59,
+    },
+    {
+      id: 3,
+      title: 'Pokémon',
+      rating: 4.5,
+      comments: 2,
+      createdAt: '2 minutes ago',
+      views: 59,
+    },
+  ];
 
-  return res.render('home', { pageTitle: 'Home', fakeUser, videoIds }); // ES6
+  return res.render('home', { pageTitle: 'Home', fakeUser, videos }); // ES6
 };
 
 export const search = (req, res) => res.send('Search Video');
