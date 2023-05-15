@@ -1,17 +1,8 @@
 header 
-  h1 #{pageTitle}
-
-  if fakeUser.loggedIn
-    small Hello! #{fakeUser.username}!
-  nav
-    ul
+  nav     
+    h1 Wetube 
+    ul 
       li
-        a(href="/") Home
-
-      if fakeUser.loggedIn
-        li
-          a(href="/logout") Log Out
-      else 
-        li
-          a(href="/login") Login
-      
+        a(href="/login") 
+          i Login
+    

@@ -3,8 +3,12 @@ const fakeUser = {
   loggedIn: false,
 };
 
-export const trending = (req, res) =>
-  res.render('home', { pageTitle: 'Home', fakeUser }); // ES6
+export const trending = (req, res) => {
+  const videoIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  return res.render('home', { pageTitle: 'Home', fakeUser, videoIds }); // ES6
+};
+
 export const search = (req, res) => res.send('Search Video');
 export const see = (req, res) =>
   res.render('watch', { pageTitle: 'Watch', videoId: req.params.id });
