@@ -1,9 +1,4 @@
-doctype html
-html(lang="ko")
-  head
-    title= pageTitle
-    
-  body
-    h1 Watch Video ##{videoId}!
-    
-  include partials/footer.pug
+extends base.pug
+
+block content
+  h1 Watch ##{videoId}
